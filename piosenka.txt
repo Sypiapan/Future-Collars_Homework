@@ -1,10 +1,7 @@
 
 refren-1.txt
 
-Last Christmas I gave you my heart
-But the very next day you gave it away
-This year, to save me from tears
-I'll give it to someone special
+refren-2.txt
 
 Once bitten and twice shy
 I keep my distance, but you still catch my eye
