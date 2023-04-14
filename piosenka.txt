@@ -15,10 +15,7 @@ zwrotka-3.txt
 
 zwrotka-4.txt
 
-Last Christmas I gave you my heart
-But the very next day you gave it away
-This year, to save me from tears
-I'll give it to someone special, special
+refren-5.txt
 
 Last Christmas I gave you my heart
 But the very next day you gave it away
