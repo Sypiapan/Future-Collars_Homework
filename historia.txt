@@ -1,0 +1,348 @@
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p piosenka.txt
+commit 022d471bdec926cc8d18ee2db84d187a32e342fb (HEAD -> master)
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:25:40 2023 +0200
+
+    usuniecie refren-2.txt i refren3.txt i zastapineie ich w piosnka.txt refren-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index b438715..c9c4e03 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,13 +1,13 @@
+
+ refren-1.txt
+
+-refren-2.txt
++refren-1.txt
+
+ zwrotka-1.txt
+
+ zwrotka-2.txt
+
+-refren-3.txt
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p refren-1.txt
+commit dd032da40bf971eecdd67b263791ab717480408b
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:04:46 2023 +0200
+
+    Revert "usuniêcie pierszego wiersza z pierwszego refrenu"
+
+    This reverts commit df323108420eb97080be253e0d210c4de48572e4.
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 223ca19..dbccefb 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1,4 +1,4 @@
+-
++Last Christmas I gave you my heart
+ But the very next day you gave it away
+ This year, to save me from tears
+ I'll give it to someone special
+\ No newline at end of file
+
+commit df323108420eb97080be253e0d210c4de48572e4
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:00:20 2023 +0200
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p refren-4.txt
+commit 37525ec6b40551726626d4e9e68c1e035f6ac50b
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:35:13 2023 +0200
+
+    usuniêcie czwartego refrenu
+
+diff --git a/refren-4.txt b/refren-4.txt
+index e69de29..34883fa 100644
+--- a/refren-4.txt
++++ b/refren-4.txt
+@@ -0,0 +1,7 @@
++Last Christmas I gave you my heart
++But the very next day you gave it away
++This year, to save me from tears
++I'll give it to someone special
++
++Ooh
++Oh, oh, baby
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p refren-5.txt
+commit 3912a312718a27c9ce80a7c79bb3c46480cd5d06
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:46:40 2023 +0200
+
+    usuniêcie pi¹tego refrenu
+
+diff --git a/refren-5.txt b/refren-5.txt
+index e69de29..93025bc 100644
+--- a/refren-5.txt
++++ b/refren-5.txt
+@@ -0,0 +1,4 @@
++Last Christmas I gave you my heart
++But the very next day you gave it away
++This year, to save me from tears
++I'll give it to someone special, special
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+    usuniêto pierwszy refren
+
+diff --git a/refren-5.txt b/refren-5.txt
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p refren-6.txt
+commit b217663ec5936ccef53349209e261d36f0b87660
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:48:00 2023 +0200
+
+    usuniecie szóstego refrenu
+
+diff --git a/refren-6.txt b/refren-6.txt
+index e69de29..57bc811 100644
+--- a/refren-6.txt
++++ b/refren-6.txt
+@@ -0,0 +1,6 @@
++Last Christmas I gave you my heart
++But the very next day you gave it away
++This year, to save me from tears
++I'll give it to someone special
++
++Special
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p zwrotka-1.txt
+commit abe4aaa215a4817a71114ecf4ae7980116646f54
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:29:09 2023 +0200
+
+    usuniêcie pierwszej zwrotki
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+index e69de29..87694f2 100644
+--- a/zwrotka-1.txt
++++ b/zwrotka-1.txt
+@@ -0,0 +1,4 @@
++Once bitten and twice shy
++I keep my distance, but you still catch my eye
++Tell me baby, do you recognize me?
++Well, it's been a year, it doesn't surprise me
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+    usuniêto pierwszy refren
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p zwrotka-2.txt
+commit 5776c47b126b51a95682e00240b23f892b530ba1
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:30:23 2023 +0200
+
+    usuniêcie drugiej zwrotki
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+index e69de29..aad528f 100644
+--- a/zwrotka-2.txt
++++ b/zwrotka-2.txt
+@@ -0,0 +1,4 @@
++Happy Christmas, I wrapped it up and sent it
++With a note saying "I love you", I meant it
++Now I know what a fool I've been
++But if you kissed me now, I know you'd fool me again
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+    usuniêto pierwszy refren
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p zwrotka-3.txt
+commit 0034d1e94f494fb7ce2c79c9431d660ba2b2a64a
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:36:35 2023 +0200
+
+    usuniecie trzeciej zwrotki
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+index e69de29..95d9a61 100644
+--- a/zwrotka-3.txt
++++ b/zwrotka-3.txt
+@@ -0,0 +1,4 @@
++A crowded room, friends with tired eyes
++I'm hiding from you and your soul of ice
++My God, I thought you were someone to rely on
++Me? I guess I was a shoulder to cry on
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+    usuniêto pierwszy refren
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p zwrotka-4.txt
+commit b70b4461c64beca06eda369fe595ccff0f8feda6
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:45:08 2023 +0200
+
+    usuniêcie czwartej zwrotki
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+index e69de29..41ec61c 100644
+--- a/zwrotka-4.txt
++++ b/zwrotka-4.txt
+@@ -0,0 +1,4 @@
++A face on a lover with a fire in his heart
++A man under cover, but you tore me apart
++Oh, oh now I've found a real love
++You'll never fool me again
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+    usuniêto pierwszy refren
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log -p zwrotka-5.txt
+commit ad5a1c86145ddd8b9c1e4efc4be1c9e4aaed3a32
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:49:27 2023 +0200
+
+    usuniêcie pi¹tej zwrotki
+
+diff --git a/zwrotka-5.txt b/zwrotka-5.txt
+index e69de29..57bc811 100644
+--- a/zwrotka-5.txt
++++ b/zwrotka-5.txt
+@@ -0,0 +1,6 @@
++Last Christmas I gave you my heart
++But the very next day you gave it away
++This year, to save me from tears
++I'll give it to someone special
++
++Special
+\ No newline at end of file
+
+commit bc8c338627c490217347348c1c649d9c7bd077ff
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 11:55:20 2023 +0200
+
+
+
+ThinkPad T420@ThinkPadT420 MINGW64 ~/Desktop/Future Collars_Homework (master)
+$ git log
+commit 022d471bdec926cc8d18ee2db84d187a32e342fb (HEAD -> master)
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:25:40 2023 +0200
+
+    usuniecie refren-2.txt i refren3.txt i zastapineie ich w piosnka.txt refren-1.txt
+
+commit dd032da40bf971eecdd67b263791ab717480408b
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:04:46 2023 +0200
+
+    Revert "usuniêcie pierszego wiersza z pierwszego refrenu"
+
+    This reverts commit df323108420eb97080be253e0d210c4de48572e4.
+
+commit df323108420eb97080be253e0d210c4de48572e4
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:00:20 2023 +0200
+
+    usuniêcie pierszego wiersza z pierwszego refrenu
+
+commit ad5a1c86145ddd8b9c1e4efc4be1c9e4aaed3a32
+Author: sypiapan <sypiapan@gmail.com>
+:...skipping...
+commit 022d471bdec926cc8d18ee2db84d187a32e342fb (HEAD -> master)
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:25:40 2023 +0200
+
+    usuniecie refren-2.txt i refren3.txt i zastapineie ich w piosnka.txt refren-1.txt
+
+commit dd032da40bf971eecdd67b263791ab717480408b
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:04:46 2023 +0200
+
+    Revert "usuniêcie pierszego wiersza z pierwszego refrenu"
+
+    This reverts commit df323108420eb97080be253e0d210c4de48572e4.
+
+commit df323108420eb97080be253e0d210c4de48572e4
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 13:00:20 2023 +0200
+
+    usuniêcie pierszego wiersza z pierwszego refrenu
+
+commit ad5a1c86145ddd8b9c1e4efc4be1c9e4aaed3a32
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:49:27 2023 +0200
+
+    usuniêcie pi¹tej zwrotki
+
+commit b217663ec5936ccef53349209e261d36f0b87660
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:48:00 2023 +0200
+
+    usuniecie szóstego refrenu
+
+commit 3912a312718a27c9ce80a7c79bb3c46480cd5d06
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:46:40 2023 +0200
+
+    usuniêcie pi¹tego refrenu
+
+commit b70b4461c64beca06eda369fe595ccff0f8feda6
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:45:08 2023 +0200
+
+    usuniêcie czwartej zwrotki
+
+commit 0034d1e94f494fb7ce2c79c9431d660ba2b2a64a
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:36:35 2023 +0200
+
+    usuniecie trzeciej zwrotki
+
+commit 37525ec6b40551726626d4e9e68c1e035f6ac50b
+Author: sypiapan <sypiapan@gmail.com>
+Date:   Fri Apr 14 12:35:13 2023 +0200
+
+    usuniêcie czwartego refrenu
+
+commit 7c274e3b1c84bf46b5b292377e5710c1563ff249
+Author: sypiapan <sypiapan@gmail.com>
+:
